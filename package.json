@@ -4,5 +4,11 @@
     "dotenv": "^16.0.3",
     "ffmpeg-static": "^5.1.0",
     "node-record-lpcm16": "^1.0.1"
+  },
+  "devDependencies": {
+    "esbuild": "^0.15.18"
+  },
+  "scripts": {
+      "compile": "esbuild bot.ts --bundle --outfile=bot.js --platform=node --target=node16.17"
   }
 }

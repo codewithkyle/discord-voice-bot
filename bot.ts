@@ -1,5 +1,5 @@
 const { Client, Message, VoiceState } = require("discord.js");
-const ffmpeg = require("ffmpeg-binaries");
+const ffmpeg = require("ffmpeg-static");
 const fs = require("fs");
 const record = require("node-record-lpcm16");
 require('dotenv').config();
