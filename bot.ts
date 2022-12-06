@@ -2,9 +2,10 @@ const { Client, Message, VoiceState } = require("discord.js");
 const ffmpeg = require("ffmpeg-binaries");
 const fs = require("fs");
 const record = require("node-record-lpcm16");
+require('dotenv').config();
 
 const client = new Client();
-client.login("YOUR_BOT_TOKEN_HERE");
+client.login(process.env.BOT_TOKEN);
 const usersInChannel = new Map();
 
 async function joinVoiceChannel(message) {

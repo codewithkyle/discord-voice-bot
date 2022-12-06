@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "discord.js": "^14.7.1",
+    "dotenv": "^16.0.3",
     "ffmpeg-static": "^5.1.0",
     "node-record-lpcm16": "^1.0.1"
   }
